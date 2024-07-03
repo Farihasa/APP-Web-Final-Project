@@ -1,0 +1,89 @@
+body,html{
+    padding:0;
+    margin:0;
+    background-color:rgb(250,240,230);
+}
+.nav{
+    background-color: rgb(0,86,63);
+    display:flex;
+    justify-content: center;
+    position:fixed; 
+    right:0;
+    top:0;
+    gap:30px;
+    width:100%;
+    padding-top:0px;
+    z-index: 1;
+}
+.nav a{
+    color:white;
+    height: 20px;
+    border-bottom:salmon 10px;
+}
+.nav a:hover{
+    background-color: azure;
+    color:black;
+}
+.header,h2{
+    text-align: center;
+}
+.caption{
+    visibility: hidden;
+   
+}
+.img-container{
+  margin-left: 75px;
+  margin-right: 75px;
+   object-fit: cover;
+}
+.about-container .caption:hover{ 
+    
+    visibility: visible;
+    background-color: brown;
+    color: white;
+     right: 0%;
+    bottom:0%
+}
+.about-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding:auto;
+    margin:auto;
+    width:800px; 
+    background-color:wheat;
+    color:black;
+   border: solid rgb(0,86,63) 5px;
+}
+.about-container img{
+    width:500px;
+}
+.about-container 2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding:auto;
+    margin:auto;
+    width:800px;
+    background-color:#f0e65b;
+    color:black;
+}
+.about-container 3{
+    position: relative;
+    display: flex;
+    padding:auto;
+    margin:auto;
+    width:800px;
+    background-color:#f0e65b;
+    color:black;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0,86,63);
+    color: white;
+    height: 20px;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+body,html{
+    padding:0;
+    margin:0;
+    background-color: rgb(250,240,230) ;
+    background-image: url('https://2.bp.blogspot.com/-5vKb9Y6RRuA/W6UvobdQPaI/AAAAAAAAAh8/amDiu3mPF4YfW-JPoMIEn7ggEsMOQfAjgCLcBGAs/s1600/984df9ba7bfb2579514a39cba0604ede.jpg');
+    background-size: cover;
+}
+.nav{
+    background-color: rgb(0,86,63);
+    display:flex;
+    justify-content: center;
+    position:fixed;
+    right:0;
+    top:0;
+    width:100%;
+    gap:30px;
+    z-index: 1;
+}
+.nav a{
+    color:white;
+    height: 20px;
+    border-bottom:salmon 10px;
+}
+.nav a:hover{
+    background-color: azure;
+    color:black;
+}
+.general{
+    position: absolute;
+    background-color: silver;
+    opacity: 0.7;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    text-align: center;
+    border: solid seagreen 5px;
+}
+iframe{
+    width:30%;
+    height: fit-content;
+    margin-left: 0;
+}
+#poet{
+  display: block;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(0,86,63);
+    color: white;
+    height: 20px;
+    text-align: center;
+}
